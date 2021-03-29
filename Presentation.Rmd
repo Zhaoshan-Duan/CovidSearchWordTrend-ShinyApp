@@ -1,0 +1,77 @@
+---
+title: "What Are Americans Searching During the Covid-19 Pandemic ?"
+author: "Zhaoshan Duan"
+date: "11/9/2020"
+output: powerpoint_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(pacman)
+p_load(dplyr)
+```
+
+# Project Introduction
+
+## Introduction
+
+We are interested in understanding what aggregated search behavior on searching engines (Google) can tell us about public interest shifts as a story or scenario (COVID-19) unfolds.
+
+The geographic focus of the crisis, its unique keywords and its potential to relate to Americans' daily lives and political affiliation made it a prime candidate for study.
+
+\newpage
+
+# Outline
+
+-   How to identify the Search Words ?
+-   How to wrangle the data ?
+-   How to do the visualization?
+
+\newpage
+
+# How to identify the Search Words ?
+
+-   Brainstorming
+-   News and media coverage
+-   Google's Tools
+
+\newpage
+
+# How to wrangle the data ?
+
+### Limits on Google Trends
+
+-   " What can Google data answer ?"
+
+-   Maximum of five terms at the same time.
+
+The aggregated data can be useful in shedding light on certain research questions.
+
+**BUT we cannot know if that interest reflects support, opposition or simple curiosity.**
+
+\newpage
+
+# How to do the visualization?
+
+-   What kind of visualization ?
+
+-   Dynamic or interactive or both
+
+-   Shiny vs Shiny Dashboard
+
+\newpage
+
+# Difficulties
+
+-   Hardware limitations
+-   how much we don't know
+-   JavaScript
+-   React programming
+
+# Acknowledgments
+
+<https://searchingcovid19.com/>
+
+[https://medium.com/\@pewresearch/using-google-trends-data-for-research-here-are-6-questions-to-ask-a7097f5fb526](https://medium.com/@pewresearch/using-google-trends-data-for-research-here-are-6-questions-to-ask-a7097f5fb526){.uri}
+
+<https://www.gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf>
