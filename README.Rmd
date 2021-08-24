@@ -2,8 +2,7 @@
 title: 'Google Search Trend During COVID Pandemic : Report'
 author: "Zhaoshan Duan"
 date: "December 11, 2020"
-output:
-  html_document: rmarkdown::github_document
+output: rmarkdown::github_document
 ---
 
 # Introduction
@@ -64,8 +63,6 @@ tail(trend,6)
 
 > The resulting numbers are then scaled on a range of 0 to 100 based on a topic's proportion to all searches on all topics.
 
-\\newpage
-
 ## How to do the visualization? (Method)
 
 This project uses a shiny web application to visualize the trend over time. The app is composed of three tabs using a navigation bar.
@@ -92,8 +89,6 @@ The second tab **Interest Comparisons** provides an overview of all the search w
 ![](shiny/app_screenshots/interest_comparision.jpg)
 
 The third tab **About** provides general information about the project.
-
-\\newpage
 
 ## Limitations of Google API
 
