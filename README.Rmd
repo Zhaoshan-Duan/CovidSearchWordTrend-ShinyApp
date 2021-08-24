@@ -3,12 +3,8 @@ title: 'Google Search Trend During COVID Pandemic : Report'
 author: "Zhaoshan Duan"
 date: "December 11, 2020"
 output:
-  pdf_document: default
-  html_document:
-    df_print: paged
+  html_document: rmarkdown::github_document
 ---
-
-\newpage
 
 # Introduction
 
@@ -18,8 +14,6 @@ As of December 2020, United States has the highest COVID-19 cases around the wor
 
 This project focuses on developing an interactive Shiny application that allow users to visualize over time interest on **13 COIVD-related search words** that may be perceived to be popular.
 
-\newpage
-
 # Workflow
 
 The workflow of the project is guided by four questions:
@@ -28,8 +22,6 @@ The workflow of the project is guided by four questions:
 -   How to wrangle the data ?
 -   How to do the visualization?
 -   How to present the product ?
-
-\newpage
 
 ## How to identify the Search Words ?
 
@@ -43,10 +35,6 @@ The search words are
 | **Fatigue**              | **Cough**                | **Corona Virus Testing Centers** | **Loss of Smell**       |
 | **Lysol**                | **Antibodies**           | **Face Masks**                   | **Coronavirus Vaccine** |
 | **COVID Stimulus Check** |                          |                                  |                         |
-
-: table 1 - search word list
-
-\newpage
 
 ## How to wrangle the data ? (Method)
 
@@ -76,7 +64,7 @@ tail(trend,6)
 
 > The resulting numbers are then scaled on a range of 0 to 100 based on a topic's proportion to all searches on all topics.
 
-\newpage
+\\newpage
 
 ## How to do the visualization? (Method)
 
@@ -105,7 +93,7 @@ The second tab **Interest Comparisons** provides an overview of all the search w
 
 The third tab **About** provides general information about the project.
 
-\newpage
+\\newpage
 
 ## Limitations of Google API
 
@@ -115,15 +103,13 @@ We also need to note that since the searches are voluntary, each of these search
 
 We initially wanted to compare the trend with political affiliations. We eventually decided to abandon the idea since it could be misleading due to the nature of Google Trend data.
 
-\newpage
-
 # Future Implementation
 
 ## shiny dashboard
 
 It is better to visualize the data in a shiny dashboard.
 
-## Sunburst Graph and Dynamicality 
+## Sunburst Graph and Dynamicality
 
 Originally, we were interested in visualizing the COVID data over time through a **rotating sunburst graph** with color corresponding to that of a COVID virus. This implementation was met with great technical difficulties with making `D3` work with animation. Currently we are uncertain about how to implement this feature in R.
 
@@ -137,15 +123,15 @@ Originally, we were interested in visualizing the COVID data over time through a
 
 ## Articles
 
-[https://www.mayoclinicproceedings.org/article/S0025-6196(20)30934-4/fulltext](https://www.mayoclinicproceedings.org/article/S0025-6196(20)30934-4/fulltext)
+<https://www.mayoclinicproceedings.org/article/S0025-6196(20)30934-4/fulltext>
 
 # Design Reference
 
 Design
 
-[<https://fontawesome.com/icons?from=io>](https://fontawesome.com/icons?from=io){.uri}
+[\<https://fontawesome.com/icons?from=io\>](https://fontawesome.com/icons?from=io){.uri}
 
-[<https://www.washingtonpost.com/business/2020/04/17/last-year-we-searched-google-how-tie-tie-now-were-using-it-find-toilet-paper/?arc404=true>](https://www.washingtonpost.com/business/2020/04/17/last-year-we-searched-google-how-tie-tie-now-were-using-it-find-toilet-paper/?arc404=true){.uri}
+[\<https://www.washingtonpost.com/business/2020/04/17/last-year-we-searched-google-how-tie-tie-now-were-using-it-find-toilet-paper/?arc404=true\>](https://www.washingtonpost.com/business/2020/04/17/last-year-we-searched-google-how-tie-tie-now-were-using-it-find-toilet-paper/?arc404=true){.uri}
 
 Sunburst Diagram
 
