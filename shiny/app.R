@@ -72,7 +72,7 @@ ui <- fluidPage(
                tabPanel("About", fluid = TRUE, icon = icon("question-circle"),
                         titlePanel("About This Project"),
                         mainPanel(
-                            p("This project is made by Zhaoshan Duan for STAT 694"),
+                            p("This project is made by Zhaoshan Duan"),
                         )
                         
                )
@@ -102,11 +102,7 @@ server <- function(input, output,session) {
              ggtitle("Google Search")
      })
     
-    
-    
-    
-    
-    
+
     
     # Interest Over Time 
 

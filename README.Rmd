@@ -2,7 +2,8 @@
 title: 'Google Search Trend During COVID Pandemic : Report'
 author: "Zhaoshan Duan"
 date: "December 11, 2020"
-output: rmarkdown::github_document
+output:
+  rmarkdown::github_document
 ---
 
 # Introduction
