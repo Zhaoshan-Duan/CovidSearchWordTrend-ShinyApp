@@ -153,10 +153,6 @@ The third tab **About** provides general information about the project.
 
 ## Limitations of Google API
 
-One major limitation of Google Trends is that we could only request a
-query of maximum five terms at the same time. This limitation of the
-package makes it difficult to visualize the data at scale.
-
 We also need to note that since the searches are voluntary, each of
 these searches was conducted for its own reason (exploring a topic,
 clarifying a term, seeking evidence to bolster an argument). Therefore,
