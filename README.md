@@ -1,7 +1,7 @@
 Google Search Trend During COVID Pandemic : Report
 ================
 Zhaoshan Duan
-December 11, 2020
+April 6, 2022
 
 # Introduction
 
